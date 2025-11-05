@@ -1,0 +1,13 @@
+{
+  "name": "@abelfcovallejo/shared-models",
+  "version": "1.0.14",
+  "description": "Repository to keep models to be used on different appications",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  }
+}
