@@ -6,5 +6,6 @@ export  * from './models/team-member.model';
 export * from './models/team-member-proyect-history.model';
 export * from './models/team-member-role-history.model';
 export * from './models/role.model';
+export * from './models/vacation.model';
 
 
