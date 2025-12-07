@@ -1,6 +1,6 @@
 {
   "name": "@abelfcovallejo/shared-models",
-  "version": "1.0.14",
+  "version": "1.0.15",
   "description": "Repository to keep models to be used on different appications",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
