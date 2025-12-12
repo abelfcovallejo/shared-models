@@ -5,11 +5,14 @@ GitHub instalar un paquete
 
 1. Crear token para usar 
 2. En VS abrir terminal y conectarse a GitHub por medio del token npm login --registry=https://npm.pkg.github.com
+3. Ejecutar npm run build para generar los cambios en el dist.
 3. Publica el paquete , tuve que usar la opción public para poder mostrarlo npm publish --access public
 4. En la solución donde se quiere usar el paquete, hay que crear un file .npmrc y poner el token y datos como:
    //npm.pkg.github.com/:\_authToken=ghp\_77fdoRJUk9x0xByBdFf8x6SZJP8yP52EVONX
    @abelfcovallejo:registry=https://npm.pkg.github.com
-5. Luego ejecutar para instalar el paquete npm install @abelfcovallejo/shared-models
+
+Instalar
+1. Luego ejecutar para instalar el paquete npm install @abelfcovallejo/shared-models
 
 Para actualizar el paquete:
 1. Hacer los cambios en el proyecto
