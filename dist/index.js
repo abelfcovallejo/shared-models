@@ -22,3 +22,4 @@ __exportStar(require("./models/team-member.model"), exports);
 __exportStar(require("./models/team-member-proyect-history.model"), exports);
 __exportStar(require("./models/team-member-role-history.model"), exports);
 __exportStar(require("./models/role.model"), exports);
+__exportStar(require("./models/vacation.model"), exports);
