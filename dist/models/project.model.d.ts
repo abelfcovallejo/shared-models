@@ -5,4 +5,5 @@ export interface Project {
     endDate?: Date;
     manager: string;
     healthStatus: 'healthy' | 'warning' | 'critical';
+    skillsUsed?: string[];
 }
