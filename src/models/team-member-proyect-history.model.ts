@@ -4,5 +4,5 @@ export interface TeamMemberProjectHIstory {
     teamMemberId: string;
     startDate: Date;    
     endDate?: Date;
-    skillsUsed?: string;
+    skillsUsed?: string[];
 }
