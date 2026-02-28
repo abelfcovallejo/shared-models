@@ -16,6 +16,7 @@ Instalar
 
 Para actualizar el paquete:
 1. Hacer los cambios en el proyecto
+2. Compilar los cambios para que se genere los dist files
 2. HAcer commit a los cambios
 3. ejecutar : npm version patch -> Esto debera aumentar la version en el pakcage.json
 4. Commit al package.json
