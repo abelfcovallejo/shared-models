@@ -1,5 +1,5 @@
 export interface EventLogs {
-  id?: string;  // Opcional para creaciones nuevas
+  id: string;  
   type: 'missingTS' | 'missingOne-One'  | 'missingTask' | 'other';
   teamMemberId: string;
   date: Date | string;
