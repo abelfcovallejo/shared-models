@@ -1,5 +1,5 @@
 export interface Conversation {
-    id?: string;
+    id: string;
     date: Date | string;
     projectId: string;
     teamMemberSentiment: 'Very Happy' | 'Happy' | 'Neutral' | 'Unhappy' | 'Very Unhappy';
