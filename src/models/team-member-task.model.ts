@@ -1,6 +1,6 @@
 export interface TeamMemberTask {
   id: string;
-  name: string;
+  taskId: string;
   startDate: Date;
   endDate?: Date;
   teamMemberId: string;
