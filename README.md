@@ -16,11 +16,14 @@ Instalar
 
 Para actualizar el paquete:
 1. Hacer los cambios en el proyecto
-2. Compilar los cambios para que se genere los dist files
-2. HAcer commit a los cambios
-3. ejecutar : npm version patch -> Esto debera aumentar la version en el pakcage.json
-4. Commit al package.json
-5. Add export of model to index.ts
-6. Instalar -> npm install @abelfcovallejo/shared-models
-   o Actualizar -> npm update @abelfcovallejo/shared-models
-7. Publicar los cambios npm publish
+2. Agregar export del nuevo modelo en index.ts (si aplica)
+3. Compilar los cambios: `npm run build`
+4. Hacer commit a todos los cambios: `git add . && git commit -m "Descripción de cambios"`  
+5. Ejecutar: `npm version patch` (esto aumenta automáticamente la versión en package.json y hace commit)
+6. Push del tag de versión a GitHub: `git push origin v1.x.x` (reemplazar con la versión correcta)
+7. Push de todos los cambios a GitHub: `git push origin main` 
+8. Publicar los cambios: `npm publish`
+
+Para que las aplicaciones obtengan la actualización:
+- Instalar versión específica: `npm install @abelfcovallejo/shared-models@1.x.x`
+- Actualizar a la última versión: `npm update @abelfcovallejo/shared-models`
